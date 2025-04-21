@@ -1,0 +1,59 @@
+.cell {
+  margin-bottom: 1rem;
+}
+
+.cell > .sourceCode {
+  margin-bottom: 0;
+}
+
+.cell-output > pre {
+  margin-bottom: 0;
+}
+
+.cell-output > pre, .cell-output > .sourceCode > pre, .cell-output-stdout > pre {
+  margin-left: 0.8rem;
+  margin-top: 0;
+  background: none;
+  border-left: 2px solid lighstsalmon;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cell-output > .sourceCode {
+  border: none;
+}
+
+.cell-output > .sourceCode {
+  background: none;
+  margin-top: 0;
+}
+
+div.description {
+  padding-left: 2px;
+  padding-top: 5px;
+  font-style: italic;
+  font-size: 135%;
+  opacity: 70%;
+}
+
+html::before {
+  content: "";
+  background-image: url("https://i.pinimg.com/originals/e7/d5/62/e7d562a66f3a74990fa3bc6b81128dc6.gif");
+/*                  
+                    url("https://i.pinimg.com/originals/04/61/19/0461190cf2f3410a1c208dbb9fb107e9.gif");
+                    url("https://i.pinimg.com/originals/92/15/c3/9215c36ab6ead65d2ac59ecbda1dfac7.gif");
+                    url("https://i.pinimg.com/originals/b9/c4/e9/b9c4e9d6bbd079adafa5862a4ec48c40.gif");
+                    url("https://de.pinterest.com/pin/1010424866439619247/"); 
+*/
+  background-size: contain;
+  background: no-repeat;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 35%;
+  margin: 0;
+  user-select: none; 
+  z-index: 1000; 
+}
+
