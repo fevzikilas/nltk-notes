@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nltk-notes"
+  site-url: "https://fevzikilas.github.io/nltk-notes"
+  description: "nlp library nltk notes"
+  repo-branch: main
+  repo-url: "https://github.com/fevzikilas/nltk-notes"
