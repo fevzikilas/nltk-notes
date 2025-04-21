@@ -19,7 +19,7 @@ website:
     left:
       - href: /index.html
         text: NLTK-NOTES
-      - href: /00_core.html
+      - href: /core.html
         text: ABOUT
       - text: "FEVZİ KILAS"
         href: https://fevzikilas.tech
